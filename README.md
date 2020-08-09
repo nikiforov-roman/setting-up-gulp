@@ -3,15 +3,15 @@ Modern web development has many repetitive tasks like running a local server, mi
 ## 1. Install NodeJS from the official site
 `[https://nodejs.org/en/](https://nodejs.org/en/)`
 ## 2. Check for node, npm, and npx
-`node --version`
-`npm --version`
-`npx --version`
+`node --version`  
+`npm --version`  
+`npx --version`  
 ## 3. Install the Gulp command line utility
 `npm install --global gulp-cli`
 ## 4. Create a new project
 Create a project directory and navigate into it.
 ## 5. Create a package.json file in your project directory
-`npm init`
+`npm init`  
 This will guide you through giving your project a name, version, description, etc.
 ## 6. Install the Gulp package in your devDependencies
 `npm install --save-dev gulp`
