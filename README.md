@@ -19,7 +19,7 @@ This will guide you through giving your project a name, version, description, et
 `gulp --version`
 ## 8. Create a gulpfile
 Using your text editor, create a file named gulpfile.js in your project root with these contents:
-
+```
 let project_folder = require("path").basename(__dirname);
 let source_folder = "src"
  
@@ -182,3 +182,4 @@ exports.html = html;
 exports.build = build;
 exports.watch = watch;
 exports.default = watch;
+```
