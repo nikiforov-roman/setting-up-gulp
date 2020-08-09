@@ -18,7 +18,7 @@ This will guide you through giving your project a name, version, description, et
 ## 7. Verify your gulp versions
 `gulp --version`
 ## 8. Create a gulpfile
-Using your text editor, create a file named gulpfile.js in your project root with these contents:
+Using your text editor, create a file named **gulpfile.js** in your project root with these contents:
 ```
 let project_folder = require("path").basename(__dirname);
 let source_folder = "src"
@@ -183,3 +183,7 @@ exports.build = build;
 exports.watch = watch;
 exports.default = watch;
 ```
+## 9. Create a project structure
+In the root directory of the project, create a folder **src** to store the source files. Create 4 more folders inside the crk folder: **img**, **scss**, **js**, **fonts**. Here we will create a file **index.html**. Create a **style.scss** file in the **scss** folder. Create a **script.js** file in the **js** folder.
+## 10. Installing the required plugins
+`npm i browser-sync gulp-file-include del gulp-sass gulp-autoprefixer gulp-group-css-media-queries gulp-clean-css gulp-rename gulp-uglify-es gulp-imagemin gulp-webp gulp-webp-html gulp-webpcss gulp-svg-sprite --save-dev`
