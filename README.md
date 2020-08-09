@@ -1,7 +1,7 @@
 # Setting up Gulp 4
 Modern web development has many repetitive tasks like running a local server, minifying code, optimizing images, preprocessing CSS and more. This text discusses gulp, a build tool for automating these tasks
 ## 1. Install NodeJS from the official site
-`[https://nodejs.org/en/](https://nodejs.org/en/)`
+`[Название ссылки](https://nodejs.org/en)`
 ## 2. Check for node, npm, and npx
 `node --version`  
 `npm --version`  
